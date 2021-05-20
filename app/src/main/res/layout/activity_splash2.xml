@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:padding="8dp"
+    tools:context=".splash2"
+    android:orientation="vertical">
+<ImageView
+    android:layout_width="200dp"
+    android:layout_height="200dp"
+    android:id="@+id/imageLogo"
+    android:layout_marginTop="100dp"
+    android:layout_gravity="center"
+    android:src="@drawable/logo1"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="ShareFood"
+        android:textSize="50sp"
+        android:fontFamily="casual"
+        android:textStyle="bold"
+        android:textColor="@color/orange2"
+        android:layout_marginTop="30dp"
+        />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:fontFamily="cursive"
+        android:gravity="center"
+        android:text="Chaque don petit ou grand peut avoir un impact énorme sur la vie d'une personne"
+        android:textColor="@color/orange2"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
